@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "zenserProject": {
+    "praticeProject": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "zenserProject:build:production"
+              "buildTarget": "praticeProject:build:production"
             },
             "development": {
-              "buildTarget": "zenserProject:build:development"
+              "buildTarget": "praticeProject:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f79fa019-88b9-4afa-898b-68c8b5a4661e"
   }
 }
