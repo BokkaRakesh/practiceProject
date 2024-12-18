@@ -1,0 +1,18 @@
+<p >search works!</p>
+<div>
+    <input type="text"
+    placeholder="Search fruit.."
+    (input)="onSearch($event)"
+    >
+    <ul>
+        <li *ngFor="let item of filteredItems" >
+            <div [appCustomOnHover]="
+            item === 'apple' ? 'red': 
+            item === 'orange' ? 'blue':
+            item === 'bananna' ? 'brown': 
+            'yellow'">
+                {{ item | captilize}}
+              </div>
+        </li>
+    </ul>
+</div>
