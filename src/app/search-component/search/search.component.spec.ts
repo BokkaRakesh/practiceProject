@@ -6,7 +6,7 @@ describe('SearchComponent', () => {
   let component: SearchComponent;
   let fixture: ComponentFixture<SearchComponent>;
 
-  beforeEach(async () => {
+  beforeEach( async () => {
     await TestBed.configureTestingModule({
       imports: [SearchComponent]
     })
